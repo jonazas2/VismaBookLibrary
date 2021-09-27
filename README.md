@@ -2,7 +2,8 @@
 
 Create a console application to manage Visma’s book library using .NET5.
 Requirements:
-● Command to add a new book. All the book data should be stored in a JSON file. Book 
+
+# Command to add a new book. All the book data should be stored in a JSON file. Book 
 model should contain the following properties:
 ○ Name
 ○ Author
