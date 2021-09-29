@@ -15,13 +15,10 @@ namespace VismaBookLibrary
             int number = -1;
             while (true)
             {
-                do
+                while (!int.TryParse(Console.ReadLine(), out number))
                 {
-                    int.TryParse(Console.ReadLine(), out number);
-                    if (number < 0 || number > 6)
-                        Console.Write("This is not valid input. Please enter option from the menu:");
+                    Console.Write("This is not valid input! Try again:");
                 }
-                while (number < 0 || number > 6);
 
                 Navigation(number);
             }
@@ -59,7 +56,7 @@ namespace VismaBookLibrary
 
         private static void Navigation(int key)
         {
-            Library library = new Library(@"C:\Users\Ausra\Desktop\VismaInternship\VismaBookLibrary\VismaBookLibrary\Books.json");
+            Library library = new Library(@"..\..\..\Books.json");
 
             string bookname;          
             string author;
@@ -245,7 +242,6 @@ namespace VismaBookLibrary
                     Console.WriteLine("Wrong value entered");
 
                     break;
-
             }
         }
     }

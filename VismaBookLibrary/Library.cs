@@ -28,7 +28,7 @@ namespace VismaBookLibrary
 			{
 				//Exit the program if there was an error
 				Console.WriteLine("Failed to read books from file! Error: {0}", ex.Message);
-				//Environment.Exit(0);
+				Environment.Exit(0);
 			}
 		}
 
@@ -71,7 +71,7 @@ namespace VismaBookLibrary
 			}
 		}
 
-		public void TakeBook(string isbn, string personname = "z", int days = 5)
+		public void TakeBook(string isbn, string personname, int days)
         {
 			// Reads all the json data
 			var jsonData = File.ReadAllText(filepath);
@@ -132,7 +132,7 @@ namespace VismaBookLibrary
 					{
 						if (p.Person.ReturnDate < DateTime.Now)
 						{
-							Console.WriteLine("Funny line");
+							Console.WriteLine("And I was thinking this book is gone forever...");
 						}
 
 						p.Person.Name = null;
