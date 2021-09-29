@@ -22,6 +22,7 @@ namespace VismaBookLibrary
 
                 Navigation(number);
             }
+
         }
 
         private static void DisplayCommands()

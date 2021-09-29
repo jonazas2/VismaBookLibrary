@@ -5,12 +5,12 @@
       "takeDate": "0001-01-01T00:00:00",
       "returnDate": "0001-01-01T00:00:00"
     },
-    "name": "beta",
-    "author": "b",
-    "categories": [ "help", "help2" ],
-    "language": "lt",
-    "year": 1998,
-    "isbn": "1933988678",
+    "name": "Harry Potter and the Philosopher's Stone",
+    "author": "J. K. Rowling",
+    "categories": [ "Fantasy" ],
+    "language": "English",
+    "year": 1997,
+    "isbn": "0-7475-3269-9",
     "isTaken": false
   },
   {
@@ -19,12 +19,12 @@
       "takeDate": "0001-01-01T00:00:00",
       "returnDate": "0001-01-01T00:00:00"
     },
-    "name": "beta",
-    "author": "b",
-    "categories": [ "help", "help2" ],
-    "language": "lt",
+    "name": "Harry Potter and the Chamber of Secrets",
+    "author": "J. K. Rowling",
+    "categories": [ "Fantasy" ],
+    "language": "English",
     "year": 1998,
-    "isbn": "19339547656",
+    "isbn": "0-7475-3849-2",
     "isTaken": false
   },
   {
@@ -33,26 +33,12 @@
       "takeDate": "0001-01-01T00:00:00",
       "returnDate": "0001-01-01T00:00:00"
     },
-    "name": "beta",
-    "author": "hfsdfs",
-    "categories": [ "help", "help2" ],
-    "language": "lt",
-    "year": 1998,
-    "isbn": "1933988dsfsf678",
-    "isTaken": false
-  },
-  {
-    "person": {
-      "name": null,
-      "takeDate": "0001-01-01T00:00:00",
-      "returnDate": "0001-01-01T00:00:00"
-    },
-    "name": "name",
-    "author": "author",
-    "categories": [ "categories" ],
-    "language": "languiage",
-    "year": 2021,
-    "isbn": "isbn",
+    "name": "Flaggermusmannen",
+    "author": "Jo Nesbø",
+    "categories": [ "Crime fiction" ],
+    "language": "Norwegian",
+    "year": 1997,
+    "isbn": "978-0099520320",
     "isTaken": false
   }
 
