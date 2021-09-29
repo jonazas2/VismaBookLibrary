@@ -115,7 +115,7 @@ namespace VismaBookLibrary
 			}
 		}
 
-		public void ReturnBook(string isbn = "5")
+		public void ReturnBook(string isbn)
 		{
 			var jsonData = File.ReadAllText(filepath);
 
@@ -153,7 +153,7 @@ namespace VismaBookLibrary
 				Console.WriteLine("I am sorry but this book doesn't exist in the library");
 		}
 
-		public void DeleteBook(string isbn = "1933988dsfsfff678")
+		public void DeleteBook(string isbn)
 		{
 			var jsonData = File.ReadAllText(filepath);
 
